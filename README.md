@@ -17,6 +17,14 @@
 * venv
 * Django 2.0.4 (my 2.0.5)
 
+### Package   Version
+* Django 2.0.5
+* djangorestframework 3.8.2
+* pip 10.0.1
+* pytz 2018.4
+* setuptools 28.80
+* pillow 5.1.0
+
 #### Deploy no Heroku
 
 ### Regra de Negócio

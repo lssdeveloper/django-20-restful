@@ -12,12 +12,13 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='PontoTuristico',
+            name='Atracao',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nome', models.CharField(max_length=200)),
+                ('nome', models.CharField(max_length=150)),
                 ('descricao', models.TextField()),
-                ('aprovado', models.BooleanField(default=False)),
+                ('horario_func', models.TextField()),
+                ('idade_minima', models.IntegerField()),
             ],
         ),
     ]
