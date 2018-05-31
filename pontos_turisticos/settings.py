@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'atracoes',
     'comentarios',
     'avaliacoes',
+    'localizacoes', # = enderecos
+
 
 ]
 
