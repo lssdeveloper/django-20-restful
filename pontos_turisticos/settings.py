@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     #my_apps
     'core',
     'atracoes',
+    'comentarios',
+    'avaliacoes',
 
 ]
 
